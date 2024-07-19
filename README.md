@@ -1,6 +1,7 @@
 # target-only
-
-This script filters URLs based on a specified subdomain and saves valid URLs to an output file. It utilizes Python's urllib library to parse URLs and check if they belong to a given subdomain.
+This tool is designed to assist bug hunters in extracting URLs from specific files. We know that when you use a crawler tool to extract URLs, it often includes URLs from different domains. With this tool, you can specify the domain so that only that domain and its subdomains are extracted.
 
 Example Usage:
 - Modify `input_file`, `output_file`, and `subdomain` variables to match your requirements.
+
+
